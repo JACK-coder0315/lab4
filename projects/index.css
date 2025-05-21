@@ -70,13 +70,14 @@ body {
   padding: 1em;
   text-align: center;
 }
+
+/* 把项目卡片中的图片都强制为 100×50px */
 .visualization-page .project-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  background: #ddd;
+  width: 100px;
+  height: 50px;
+  object-fit: cover; /* 保持图片填充、裁剪超出部分 */
 }
+
 .visualization-page .project-card h2 {
   font-size: 1.2rem;
   margin: 0.5em 0;

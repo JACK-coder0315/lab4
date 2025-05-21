@@ -1,36 +1,7 @@
-// == 自动生成蓝色导航栏 ==
 console.log("Generating Navigation Bar...");
 
 const BASE_PATH = location.hostname.includes("localhost") ? "/" : "/portfolio/";
 
-
-  let select = document.querySelector("select");
-
-  function setColorScheme(scheme) {
-    if (scheme === "normal") {
-      document.documentElement.style.removeProperty("color-scheme");
-    } else {
-      document.documentElement.style.setProperty("color-scheme", scheme);
-    }
-    select.value = scheme;
-  }
-
-  if ("colorScheme" in localStorage) {
-    setColorScheme(localStorage.colorScheme);
-  } else {
-    setColorScheme("normal");
-  }
-
-  select.addEventListener("input", (e) => {
-    localStorage.colorScheme = e.target.value;
-    setColorScheme(e.target.value);
-  });
-}
-
-// 生成导航栏
-generateNavbar();
-
-// == 导入 D3.js ==
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 
 // == 原始数据 ==

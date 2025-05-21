@@ -86,3 +86,33 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;             
+  margin: 0;            
+  padding: 0;           
+}
+
+
+#profile-stats dt {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #6b7280;      
+  margin: 0;           
+  grid-column: span 1;  
+}
+
+#profile-stats dd {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111827;         
+  margin: 0 0 1.5rem;     
+  grid-column: span 1;   
+}
+
+#profile-stats {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

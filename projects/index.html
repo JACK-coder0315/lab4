@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Projects</title>
+  <title>Home — Latest Projects</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body class="visualization-page">
-  <!-- 导航栏挂载点 -->
+
   <div id="nav-container"></div>
 
-  <header>
-    <h2 class="page-title">Aspects of Computer Science & Engineering</h2>
-  </header>
-
-  <main>
-    <!-- 项目列表容器，JS 会动态往这里插入 <article> -->
+  <section>
+    <h2>Latest Projects</h2>
     <div class="projects"></div>
-  </main>
+  </section>
 
-  <!-- 加载驱动脚本 -->
+  <section>
+    <h2>GitHub Stats</h2>
+    <div id="profile-stats"></div>
+  </section>
+
+  <script type="module" src="global.js" defer></script>
   <script type="module" src="index.js" defer></script>
 </body>
 </html>

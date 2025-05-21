@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Visualization</title>
   <link rel="stylesheet" href="index.css">
+  <script type="module" src="index.js" defer></script>
 </head>
-
 <body class="visualization-page">
+  <!-- 导航栏挂载点 -->
+  <div id="nav-container"></div>
+
   <header>
-    <h2 class="page-title">Aspects of computer science & engineering</h2>
+    <h2 class="page-title">Aspects of Computer Science & Engineering</h2>
   </header>
 
   <main>
+
+    <!-- 项目列表容器 -->
     <div class="projects">
-      <article>
-        <h2>artificial inteligence</h2>
-        <img src="images/artificial-intelligence.jpg" alt="" />
+      <article class="project-card">
+        <h2>Artificial Intelligence</h2>
+        <img src="images/artificial-intelligence.jpg" alt="Artificial Intelligence" />
         <p>Artificial Intelligence simulates human thinking to perform tasks like decision-making and problem-solving.</p>
       </article>
 
-      <article>
-        <h2>big data</h2>
-        <img src="images/big-data.jpg" alt="" />
-        <p>Big data analyzes huge datasets to reveal insights, trends, and relationships for better decision-making.</p>
+      <article class="project-card">
+        <h2>Big Data</h2>
+        <img src="images/big-data.jpg" alt="Big Data" />
+        <p>Big Data analyzes huge datasets to reveal insights, trends, and relationships for better decision-making.</p>
       </article>
 
-      <article>
-        <h2>cybersecurity</h2>
-        <img src="images/cybersecurity.jpg" alt="" />
+      <article class="project-card">
+        <h2>Cybersecurity</h2>
+        <img src="images/cybersecurity.jpg" alt="Cybersecurity" />
         <p>Cybersecurity protects systems and networks from malicious attacks and data breaches.</p>
       </article>
 
-      <article>
-        <h2>data science</h2>
-        <img src="images/data-science.jpg" alt="" />
-        <p>Data science combines programming, statistics, and domain expertise to gain actionable insights from data.</p>
+      <article class="project-card">
+        <h2>Data Science</h2>
+        <img src="images/data-science.jpg" alt="Data Science" />
+        <p>Data Science combines programming, statistics, and domain expertise to gain actionable insights from data.</p>
       </article>
 
-      <article>
-        <h2>machine learning</h2>
-        <img src="images/machine-learning.jpg" alt="" />
-        <p>Machine learning creates algorithms that can learn patterns from data and make predictions.</p>
+      <article class="project-card">
+        <h2>Machine Learning</h2>
+        <img src="images/machine-learning.jpg" alt="Machine Learning" />
+        <p>Machine Learning creates algorithms that can learn patterns from data and make predictions.</p>
       </article>
 
-      <article>
-        <h2>web development</h2>
-        <img src="images/web-development.png" alt="" />
-        <p>Web development involves building and maintaining websites and web applications.</p>
+      <article class="project-card">
+        <h2>Web Development</h2>
+        <img src="images/web-development.png" alt="Web Development" />
+        <p>Web Development involves building and maintaining websites and web applications.</p>
       </article>
     </div>
   </main>
 </body>
-
 </html>

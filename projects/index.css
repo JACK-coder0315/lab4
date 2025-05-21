@@ -73,7 +73,7 @@ body {
 
 /* 把项目卡片中的图片都强制为 100×50px */
 .visualization-page .project-card img {
-  width: 250px;
+  width: 225px;
   height: 100px;
   object-fit: cover; /* 保持图片填充、裁剪超出部分 */
 }

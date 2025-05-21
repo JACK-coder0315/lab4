@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Artificial Intelligence",
+        "image": "images/artificial-intelligence.jpg",
+        "description": "Artificial Intelligence simulates human thinking to perform tasks like decision-making and problem-solving."
+    },
+    {
+        "title": "Big Data",
+        "image": "images/big-data.jpg",
+        "description": "Big Data analyzes huge datasets to reveal insights, trends, and relationships for better decision-making."
+    },
+    {
+        "title": "Cybersecurity",
+        "image": "images/cybersecurity.jpg",
+        "description": "Cybersecurity protects systems and networks from malicious attacks and data breaches."
+    },
+    {
+        "title": "Data Science",
+        "image": "images/data-science.jpg",
+        "description": "Data Science combines programming, statistics, and domain expertise to gain actionable insights from data."
+    },
+    {
+        "title": "Machine Learning",
+        "image": "images/machine-learning.jpg",
+        "description": "Machine Learning creates algorithms that can learn patterns from data and make predictions."
+    },
+    {
+        "title": "Web Development",
+        "image": "images/web-development.png",
+        "description": "Web Development involves building and maintaining websites and web applications."
+    }
+]

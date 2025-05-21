@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Visualization</title>
+  <title>Projects</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body class="visualization-page">
@@ -14,45 +14,11 @@
   </header>
 
   <main>
-
-    <!-- 项目列表容器 -->
-    <div class="projects">
-      <article class="project-card">
-        <h2>Artificial Intelligence</h2>
-        <img src="images/artificial-intelligence.jpg" alt="Artificial Intelligence" />
-        <p>Artificial Intelligence simulates human thinking to perform tasks like decision-making and problem-solving.</p>
-      </article>
-
-      <article class="project-card">
-        <h2>Big Data</h2>
-        <img src="images/big-data.jpg" alt="Big Data" />
-        <p>Big Data analyzes huge datasets to reveal insights, trends, and relationships for better decision-making.</p>
-      </article>
-
-      <article class="project-card">
-        <h2>Cybersecurity</h2>
-        <img src="images/cybersecurity.jpg" alt="Cybersecurity" />
-        <p>Cybersecurity protects systems and networks from malicious attacks and data breaches.</p>
-      </article>
-
-      <article class="project-card">
-        <h2>Data Science</h2>
-        <img src="images/data-science.jpg" alt="Data Science" />
-        <p>Data Science combines programming, statistics, and domain expertise to gain actionable insights from data.</p>
-      </article>
-
-      <article class="project-card">
-        <h2>Machine Learning</h2>
-        <img src="images/machine-learning.jpg" alt="Machine Learning" />
-        <p>Machine Learning creates algorithms that can learn patterns from data and make predictions.</p>
-      </article>
-
-      <article class="project-card">
-        <h2>Web Development</h2>
-        <img src="images/web-development.png" alt="Web Development" />
-        <p>Web Development involves building and maintaining websites and web applications.</p>
-      </article>
-    </div>
+    <!-- 项目列表容器，JS 会动态往这里插入 <article> -->
+    <div class="projects"></div>
   </main>
+
+  <!-- 加载驱动脚本 -->
+  <script type="module" src="index.js" defer></script>
 </body>
 </html>

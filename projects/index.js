@@ -3,32 +3,6 @@ console.log("Generating Navigation Bar...");
 
 const BASE_PATH = location.hostname.includes("localhost") ? "/" : "/portfolio/";
 
-function generateNavbar() {
-  let navHTML = `<nav class="nav">\n`;
-
-  for (let p of pages) {
-    let url = p.url.startsWith("http") ? p.url : BASE_PATH + p.url;
-    navHTML += `<a href="${url}"${url.startsWith("http") ? ' target="_blank"' : ''}>${p.title}</a>\n`;
-  }
-
-  navHTML += `
-    <label class="color-scheme">
-      Theme:
-      <select>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-        <option value="normal">Auto</option>
-      </select>
-    </label>
-  </nav>`;
-
-  document.getElementById("nav-container")?.insertAdjacentHTML("beforeend", navHTML);
-
-  document.querySelectorAll(".nav a").forEach((a) => {
-    if (a.host === location.host && a.pathname === location.pathname) {
-      a.classList.add("current");
-    }
-  });
 
   let select = document.querySelector("select");
 
